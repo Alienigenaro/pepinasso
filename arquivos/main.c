@@ -10,7 +10,7 @@
 #include "biblioteca.h"
 int main(int argc, char * argv[]){
 	int option, n ,i;
-	FILE * fpbin;
+	//FILE * fpbin;
 	char FileName[MAX_STRING];
 	char fieldName[MAX_STRING];
 	char ToSearch[MAX_STRING];
@@ -47,13 +47,13 @@ int main(int argc, char * argv[]){
 				scanf(" %[^\n]",ToSearch);
 				aux =(unsigned char*) removeReg(FileName,fieldName, ToSearch);
 			}
-			fpbin = fopen(FileName, "rb+");
-			fwrite(aux,416000,1,fpbin);
+			//fpbin = fopen(FileName, "rb+");
+			//fwrite(aux,416000,1,fpbin);
 			for(i = 0; i < 416000; i += sizeof(unsigned char)) {
 				printf("%02X ", aux[i]);
 				if((i + 1) % 16 == 0)printf("\n");
 			}
-			fclose(fpbin);
+			//fclose(fpbin);
 			free(aux);
 		break;
 		
