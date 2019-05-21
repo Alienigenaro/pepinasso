@@ -1,4 +1,4 @@
 all:
-	gcc main.c biblioteca.c biblioteca.h -o programaTrab1
+	gcc main.c biblioteca.c biblioteca.h -o -g programaTrab2
 run:
-	./programaTrab1
+	./programaTrab2
