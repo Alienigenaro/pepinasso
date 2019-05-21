@@ -1,0 +1,11 @@
+7 caso9.bin 10
+235 cidade "Goiania"
+1956 data "03/05/1991"
+122 nomeEscola "PEREIRA SANTOS"
+13 data "01/06/2010"
+1000 cidade "Araguari"
+1957 nota 98.9
+2001 cidade "Brodowski"
+0 nota 10.1
+122 cidade NULO
+1958 nomeEscola "CORONEL DIAS"
