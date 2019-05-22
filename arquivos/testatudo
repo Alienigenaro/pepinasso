@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cp -a arquivos/. .
 make -f Makefile 
 
 for i in {1..15}
